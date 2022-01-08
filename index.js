@@ -34,7 +34,7 @@ class App {
           mainScreen.$cartModal.$cartContainer.classList.remove("hidden");
           this.setActiveScreen(mainScreen);
         } else {
-          this.setActiveScreen(new Main());
+          this.setActiveScreen(new Login ());
         }
       });
     }
